@@ -6,11 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ExampleChallangeDay5\OtherBoardingPasses.txt" />
     <None Remove="ExampleChallange\ExampleChallangeEntries.txt" />
     <None Remove="ExampleChallange\ExampleChallange_Entries.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="ExampleChallangeDay5\OtherBoardingPasses.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="ExampleChallange\ExampleChallangeEntries.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
