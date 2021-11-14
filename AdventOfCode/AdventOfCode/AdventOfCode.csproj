@@ -5,4 +5,21 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ExampleChallange\ExampleChallangeEntries.txt" />
+    <None Remove="ExampleChallange\ExampleChallange_Entries.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ExampleChallange\ExampleChallangeEntries.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ExampleChallange\ExampleChallange_Entries.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>
