@@ -1,3 +1,4 @@
+using AdventOfCode.Day1;
 using AdventOfCode.ExampleChallange;
 using AdventOfCode.ExampleChallangeDay5;
 using NUnit.Framework;
@@ -30,6 +31,22 @@ namespace AdventOfCodeTests
             var result = ExampleChallangeDay5.GetAnswer_Part2();
             
             Console.WriteLine($"The answer to the example challange day 5, part 2, is {result}");
+        }
+
+        [Test]
+        public void Day1_Part1Test()
+        {
+            var result = Day1Challange.GetAnswerPart1();
+
+            Console.WriteLine($"The answer to day 1, part 1, is {result}");
+        }
+
+        [Test]
+        public void Day2_Part2Test()
+        {
+            var result = Day1Challange.GetAnswerPart2();
+
+            Console.WriteLine($"The answer to day 2, part 2, is {result}");
         }
     }
 }
