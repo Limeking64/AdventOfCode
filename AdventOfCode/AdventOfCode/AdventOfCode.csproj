@@ -9,6 +9,8 @@
     <None Remove="Day1\Day1Input.txt" />
     <None Remove="Day2\Day2Input.txt" />
     <None Remove="Day3\Day3Input.txt" />
+    <None Remove="Day4\Day4CardInput.txt" />
+    <None Remove="Day4\Day4DrawInput.txt" />
     <None Remove="ExampleChallangeDay5\OtherBoardingPasses.txt" />
     <None Remove="ExampleChallange\ExampleChallangeEntries.txt" />
     <None Remove="ExampleChallange\ExampleChallange_Entries.txt" />
@@ -22,6 +24,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Day3\Day3Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day4\Day4CardInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day4\Day4DrawInput.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="ExampleChallangeDay5\OtherBoardingPasses.txt">
