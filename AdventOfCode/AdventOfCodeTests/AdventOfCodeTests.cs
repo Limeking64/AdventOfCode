@@ -4,6 +4,7 @@ using AdventOfCode.Day3;
 using AdventOfCode.Day4;
 using AdventOfCode.Day5;
 using AdventOfCode.Day6;
+using AdventOfCode.Day7;
 using AdventOfCode.ExampleChallange;
 using AdventOfCode.ExampleChallangeDay5;
 using NUnit.Framework;
@@ -132,6 +133,22 @@ namespace AdventOfCodeTests
             var result = Day6Challange.GetAnswerPart2();
 
             Console.WriteLine($"The answer to day 6, part 2, is {result}");
+        }
+
+        [Test]
+        public void Day7_Part1Test()
+        {
+            var result = Day7Challange.GetAnswerPart1();
+
+            Console.WriteLine($"The answer to day 7, part 1, is {result}");
+        }
+
+        [Test]
+        public void Day7_Part2Test()
+        {
+            var result = Day7Challange.GetAnswerPart2();
+
+            Console.WriteLine($"The answer to day 7, part 2, is {result}");
         }
     }
 }
