@@ -15,6 +15,7 @@
     <None Remove="Day6\Day6Input.txt" />
     <None Remove="Day7\Day7Input.txt" />
     <None Remove="Day8\Day8Input.txt" />
+    <None Remove="Day9\Day9Input.txt" />
     <None Remove="ExampleChallangeDay5\OtherBoardingPasses.txt" />
     <None Remove="ExampleChallange\ExampleChallangeEntries.txt" />
     <None Remove="ExampleChallange\ExampleChallange_Entries.txt" />
@@ -46,6 +47,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Day8\Day8Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day9\Day9Input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="ExampleChallangeDay5\OtherBoardingPasses.txt">
