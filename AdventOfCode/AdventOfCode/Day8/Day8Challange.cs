@@ -35,7 +35,7 @@ namespace AdventOfCode.Day8
             displayCodes[7] = SortString(entry.SignalPatterns.Where(x => x.Length == 3).FirstOrDefault());
             displayCodes[8] = SortString(entry.SignalPatterns.Where(x => x.Length == 7).FirstOrDefault());
 
-            // The remaining signals can only be 0, 2, 3, 5 or 9
+            // The remaining signals can only be 0, 2, 3, 5, 6 or 9
             foreach (var signal in entry.SignalPatterns)
             {
                 var orderdedSignal = SortString(signal);
