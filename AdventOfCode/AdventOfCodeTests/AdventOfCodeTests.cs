@@ -1,6 +1,7 @@
 using AdventOfCode.Day1;
 using AdventOfCode.Day10;
 using AdventOfCode.Day11;
+using AdventOfCode.Day12;
 using AdventOfCode.Day2;
 using AdventOfCode.Day3;
 using AdventOfCode.Day4;
@@ -217,6 +218,22 @@ namespace AdventOfCodeTests
             var result = Day11Challange.GetAnswerPart2();
 
             Console.WriteLine($"The answer to day 11, part 2, is {result}");
+        }
+
+        [Test]
+        public void Day12_Part1Test()
+        {
+            var result = Day12Challange.GetAnswerPart1();
+
+            Console.WriteLine($"The answer to day 12, part 1, is {result}");
+        }
+
+        [Test]
+        public void Day12_Part2Test()
+        {
+            var result = Day12Challange.GetAnswerPart2();
+
+            Console.WriteLine($"The answer to day 12, part 2, is {result}");
         }
 
     }
