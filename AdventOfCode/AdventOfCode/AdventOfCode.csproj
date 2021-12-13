@@ -9,6 +9,8 @@
     <None Remove="Day10\Day10Input.txt" />
     <None Remove="Day11\Day11Input.txt" />
     <None Remove="Day12\Day12Input.txt" />
+    <None Remove="Day13\Day13Input_Dots.txt" />
+    <None Remove="Day13\Day13Input_Instructions.txt" />
     <None Remove="Day1\Day1Input.txt" />
     <None Remove="Day2\Day2Input.txt" />
     <None Remove="Day3\Day3Input.txt" />
@@ -32,6 +34,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Day12\Day12Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day13\Day13Input_Instructions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day13\Day13Input_Dots.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Day1\Day1Input.txt">
