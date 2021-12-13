@@ -127,26 +127,17 @@ namespace AdventOfCode.Day13
 
         private static void WritePositionsToFile(Dictionary<(int, int), bool> positions)
         {
-            var filePath = Path.Combine(Environment.CurrentDirectory, "Day13/Day13Output.txt");
-            File.WriteAllText(filePath, "");
-
             for (int y = 0; y <= positions.Max(k => k.Key.Item2); y++)
             {
                 for (int x = 0; x <= positions.Max(k => k.Key.Item1); x++)
                 {
-                    File.AppendAllText(filePath, positions[(x, y)] ? "#" : "  ");
+                    Console.Write(positions[(x, y)] ? "#" : "  ");
 
                     if (x == positions.Max(k => k.Key.Item1))
                     {
-                        File.AppendAllText(filePath, "\n");
+                        Console.Write("\n");
                     }
                 }
-            }
-
-            var fileLines = File.ReadAllLines(filePath);
-            foreach (var fileLine in fileLines)
-            {
-                Console.WriteLine(fileLine);
             }
         }
     }
