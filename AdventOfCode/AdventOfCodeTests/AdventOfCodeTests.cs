@@ -3,6 +3,7 @@ using AdventOfCode.Day10;
 using AdventOfCode.Day11;
 using AdventOfCode.Day12;
 using AdventOfCode.Day13;
+using AdventOfCode.Day14;
 using AdventOfCode.Day2;
 using AdventOfCode.Day3;
 using AdventOfCode.Day4;
@@ -248,10 +249,24 @@ namespace AdventOfCodeTests
         [Test]
         public void Day13_Part2Test()
         {
-            Day13Challange.GetAnswerPart2();
-
             Console.WriteLine($"See output file for message");
+            Day13Challange.GetAnswerPart2();            
         }
 
+        [Test]
+        public void Day14_Part1Test()
+        {
+            var result = Day14Challange.GetAnswerPart1();
+
+            Console.WriteLine($"The answer to day 14, part 1, is {result}");
+        }
+
+        [Test]
+        public void Day14_Part2Test()
+        {
+            var result = Day14Challange.GetAnswerPart2();
+
+            Console.WriteLine($"The answer to day 14, part 2, is {result}");
+        }
     }
 }
